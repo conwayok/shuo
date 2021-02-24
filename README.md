@@ -1,4 +1,4 @@
-# shuo3
+# shuo
 
 This project is an example Forum app created with Kotlin + Spring Boot
 
@@ -7,22 +7,22 @@ This project is an example Forum app created with Kotlin + Spring Boot
 1. Clone this repository
 
 ```bash
-  git clone https://gitlab.com/conwayok/shuo3.git
+  git clone https://github.com/conwayok/shuo.git
 ```
 
 2. Edit
-   the [application.properties file](https://gitlab.com/conwayok/shuo3/-/blob/master/src/main/resources/application.properties)
+   the [application.properties file](https://github.com/conwayok/shuo/blob/master/src/main/resources/application.properties)
    and replace the database url. Alternatively, create a new configuration.
    
 3. Build project
 ```bash
-  cd shuo3
+  cd shuo
   ./gradlew build
 ```
 
 4. Run
 ```bash
-  java -jar build/libs/shuo3-0.0.1.jar
+  java -jar build/libs/shuo-0.0.1.jar
 ```
 
 # Usage
