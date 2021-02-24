@@ -27,6 +27,6 @@ This project is an example Forum app created with Kotlin + Spring Boot
 
 # Usage
 
-Once shuo3 is up and running, visit http://localhost:8081/swagger-ui/index.html for api docs.
+Once shuo is up and running, visit http://localhost:8081/swagger-ui/index.html for api docs.
 
 Frontend is available at http://localhost:8081/index.html.
