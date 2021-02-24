@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "shuo.jwt.secret",
+      "type": "java.lang.String",
+      "description": "Description for shuo.jwt.secret."
+  }
+] }

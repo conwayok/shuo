@@ -1,0 +1,21 @@
+Configuration:
+  status: warn
+
+  appenders:
+    Console:
+      name: LogToConsole
+      PatternLayout:
+        Pattern: "%highlight{%d{yyyy-MM-dd HH:mm:ss} [%-5level] %c{-10} - %msg%n%throwable}"
+
+  Loggers:
+    logger:
+      - name: com.conway
+        level: info
+        additivity: false
+        AppenderRef:
+          - ref: LogToConsole
+
+    Root:
+      level: error
+      AppenderRef:
+        ref: LogToConsole
