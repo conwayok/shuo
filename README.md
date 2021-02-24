@@ -12,7 +12,7 @@ This project is an example Forum app created with Kotlin + Spring Boot
 
 2. Edit
    the [application.properties file](https://github.com/conwayok/shuo/blob/master/src/main/resources/application.properties)
-   and replace the database url. Alternatively, create a new configuration.
+   and replace the database configs. Alternatively, create a new configuration.
    
 3. Build project
 ```bash
